@@ -1,0 +1,71 @@
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=1.1cm, left=1.8cm, right=1.8cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Philippe}
+\familyname{Inthavong}
+\title{Ing\'{e}nieur Java JEE}              
+\address{21 rue Jean Baptiste Cl\'{e}ment}{94800 Villejuif}    
+\email{philippe.inthavong@gmail.com}                      
+%\homepage{www.madrzejewski.com}
+\mobile{06 89 95 84 68} 
+\extrainfo{26 ans -- Permis B}
+\begin{document}
+\maketitle
+
+\section{Exp\'{e}riences}
+
+\cventry{Septembre 2015\\à Aujourd'hui}{D\'eveloppeur Java JEE}{Sopra Steria (client: Caisse nationale de l'assurance maladie des travailleurs salari\'{e}s)}{}{Paris}{
+\begin{itemize}
+	\item Rédaction de spécifications techniques
+	\item Conception applicative
+	\item Développement et tests
+	\item Rédaction de documents techniques
+	\item Encadrement technique
+	\end{itemize}}
+
+	\cventry{Juin 2015\\à Septembre 2015}{D\'eveloppeur}{Sopra Steria (client: Assistance Publique des Hôpitaux de Paris)}{}{Paris}{Maintenance corrective et \'{e}volutive de l'outil de gestion du r\'{e}f\'{e}rentiel des structures de l'AP-HP.
+	\begin{itemize}
+	\item Conception et développement de lots évolutifs
+	\item Organisation de la réversibilité du projet pour les équipes clientes
+	\end{itemize}}
+
+	\cventry{Mars 2014\\à Septembre 2014}{Ingénieur R\&D }{Laboratoire d’ing\'{e}nierie du Mouvement}{Montr\'{e}al}{\newline{} \textit{Développement d'un outil opto-electronique anthropométrique}}
+	{Développement d'un outil de mesure à bas coût basé sur les caméras Kinect pour la prise de mesures anthropométriques (volume et masse) du corps humain.\newline{}}
+
+	\cventry{Juin 2013\\à Ao\^ut 2013}{Etudiant-Chercheur}{Laboratoire d’ing\'{e}nierie du Mouvement}{Montr\'{e}al}
+	{\newline{} \textit{Développement d'un mod\`ele tridimensionnel de la coiffes des rotateurs}}
+	{Développement sous Matlab d'un mod\`ele musculo-squelettique de l'\'{e}paule. \newline{}}
+
+	\section{Formations}
+	\cventry{2011 -- 2014}{Diplôme d'ing\'{e}nieur}{Ecole T\'{e}l\'{e}com Physique Strasbourg}{}{Sp\'{e}cialit\'{e} Ing\'{e}nierie et Science pour le Vivant}{}
+	\cventry{}{Master IRIV}{Universit\'{e} de Strasbourg}{}{Imagerie, Robotique et Ing\'{e}nierie pour le Vivant}{}
+	\cventry{2009 -- 2011}{Classe pr\'{e}paratoire aux grandes \'{e}coles}{Lyc\'{e}e Paul Val\'{e}ry (Paris)}{}{Sp\'{e}cialit\'{e} Math\'{e}matiques, Physiques}{}
+	\cventry{2009}{Etudes secondaires}{Lyc\'{e}e EPIN (94)}{}{Baccalaur\'{e}at Scientifique, mention Bien}{}
+
+	\section{Comp\'{e}tences en informatique}
+	\cvitem{Langages}{Java, Javascript, HTML, CSS, SQL, Bash, C/C++, Python}
+	\cvitem{Base de donn\'{e}es}{Oracle, ProgresSQL, MySQL, MongoDB}
+	\cvitem{Serveurs}{Apache Tomcat, JBoss Application Server, Oracle Weblogic Server 11g}
+	\cvitem{Systèmes}{Windows 7, MacOS X, Linux (Ubuntu)}
+	\cvitem{Outils}{Eclipse, Ant, Maven, Jenkins, Sonar, Phabricator, Microsoft office}
+
+	\section{Langues}
+	\cvlanguage{Anglais}{lu, \'{e}crit, parl\'{e} -- Toeic 900}{}
+	\cvlanguage{Allemand}{Scolaire}{}
+	\cvlanguage{Japonais}{Débutant}{}
+
+	\section{Centres d'int\'{e}r\^et}
+	\cvitem{Culture}{Photographie, Cin\'{e}ma (science-fiction), Voyages}
+	\cvitem{Sport}{Basket Ball (loisir), Taekwondo (2 ann\'{e}es en club)}  
+	\cvitem{Association}{Pr\'{e}sident (2 ann\'{e}es) du « Club Photo » de T\'{e}l\'{e}com Physique Strasbourg \newline
+	Membre (1 ann\'{e}e) du « Bureau des f\^etes » de T\'{e}l\'{e}com Physique Strasbourg}
+\end{document}
+
