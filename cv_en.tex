@@ -1,0 +1,83 @@
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=1.1cm, left=1.8cm, right=1.8cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Philippe}
+\familyname{Inthavong}
+\title{Full Stack Developer \newline\newline 5 years of experience} 
+\address{21 rue Jean Baptiste Cl\'{e}ment}{94800 Villejuif}    
+\email{philippe.inthavong@gmail.com}                      
+%\homepage{www.madrzejewski.com}
+\mobile{+33 07 69 03 77 07} 
+\extrainfo{28 years old}
+\extrainfo{Nationality: French}
+
+\begin{document}
+\maketitle
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+\section{Work Experience}
+\cventry{February 2018\\to December 2019}{Full Stack Developer}{SII Canada}{}{Montreal, Canada}{
+\begin{itemize}
+	\item \emph{Pour le compte de la Banque Nationale du Canada}
+		\begin{itemize}
+			\item Developed responsive forms for investment fund transactions
+			\item Developed REST API 
+			\item Technologies: React, Javascript, Redux, Java 11, Openshift, Jenkins, Postman
+		\end{itemize}
+	\item \emph{Pour le compte de Desjardins (secteur bancaire)}
+		\begin{itemize}
+			\item Developed of REST API for the management of merchant accounts
+			\item Maintenance of legacy applications
+			\item Technologies: Java 8, Spring, Mockito, SoapUI, Jenkins
+		\end{itemize}
+\end{itemize}}
+
+\cventry{September 2015\\to January 2018}{Java Developer}{Sopra Steria}{}{Paris, France}{
+\begin{itemize}
+	\item \emph{Pour le compte de la Caisse nationale de l'assurance maladie des travailleurs salari\'{e}s}
+		\begin{itemize}
+			\item Writing technical specifications
+			\item Technologies : Java EE, Spring-Batch, Scripting Bash, Spring, Hibernate, Toplink, RedHat 
+		\end{itemize}
+	\item \emph{Pour le compte de l'Assistance Publique des Hôpitaux de Paris}
+		\begin{itemize}
+			\item Corrective and evolutive maintenance of the management tool for the hospitals structures
+		\end{itemize}
+\end{itemize}}
+
+	\cventry{Mars 2014\\to September 2014}{R\&D Engineer}{Laboratoire d’ing\'{e}nierie du Mouvement}{Montreal, Canada}{\newline{} \textit{Development of an anthropometric opto-electronic tool}}
+	{Development of a low-cost measurement tool based on Kinect cameras for taking anthropometric measurements (volume and mass) of the human body.\newline{}}
+
+	\cventry{June 2013\\to August 2013}{Student Researcher}{Laboratoire d’ing\'{e}nierie du Mouvement}{Montreal, Canada}
+	{\newline{} \textit{Development of a three-dimensional model of the rotator cuff}}
+	{Development under Matlab of a musculoskeletal model of the shoulder. \newline{}}
+
+	\section{Education}
+	\cventry{2011 -- 2014}{Master in Engineering}{Ecole T\'{e}l\'{e}com Physique Strasbourg}{}{Major in biomedical engineering}{}
+	\cventry{}{Master IRIV}{Universit\'{e} de Strasbourg}{}{Major in biomedical engineering}{}
+	\cventry{2009 -- 2011}{Preparatory classess}{Lyc\'{e}e Paul Val\'{e}ry (Paris)}{}{Two-year undergraduate intensive course in mathematics and physics to prepare for nationwide competitive examination}{}
+	\cventry{2009}{High school}{Lyc\'{e}e EPIN}{VFrance}{Major in Science with honor}{}
+
+	\section{Technical Skills}
+	\cvitem{Frontend}{ React, Javascript, ES6, HTML, CSS, Redux, Jest}
+	\cvitem{Backend}{Java, Node, Spring, ExpressJS, SQL, NoSQ }
+	\cvitem{Tools}{Jenkins, Docker, Maven, Git}
+	\cvitem{Methodolody}{Agile (SCRUM), Test Driven Developpement}
+
+	\section{Language}
+	\cvlanguage{French}{Native}{}
+	\cvlanguage{English}{Advanced}{}
+	\cvlanguage{Korean}{Beginner}{}
+
+	\section{Hobbies}
+	\cvitem{Culture}{Photography, Cin\'{e}ma (science fiction), Travel}
+	\cvitem{Sport}{Basketball, Taekwondo}  
+\end{document}
+
